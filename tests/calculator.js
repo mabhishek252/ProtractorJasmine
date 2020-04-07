@@ -26,7 +26,6 @@ describe('Demo Test case', function () {
         //expect(results.getText()).toEqual('50');
         homepage.verifyResult(configDataFile.testConfig.params.ExpectedResult);
 
-
         browser.sleep(2000);
 
     });

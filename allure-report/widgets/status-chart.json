@@ -1,5 +1,15 @@
 [ {
-  "uid" : "d9fcdef36ae85605",
+  "uid" : "7d8a22759b463639",
+  "name" : "addition test",
+  "time" : {
+    "start" : 1586248607514,
+    "stop" : 1586248651600,
+    "duration" : 44086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4915ab91cec196bd",
   "name" : "substraction test",
   "time" : {
     "start" : 1586241999117,
@@ -7,15 +17,5 @@
     "duration" : 304
   },
   "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8df0930c9d1ecae1",
-  "name" : "addition test",
-  "time" : {
-    "start" : 1586243410771,
-    "stop" : 1586243448136,
-    "duration" : 37365
-  },
-  "status" : "passed",
   "severity" : "normal"
 } ]

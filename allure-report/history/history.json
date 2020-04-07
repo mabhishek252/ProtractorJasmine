@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8df0930c9d1ecae1",
+      "uid" : "7d8a22759b463639",
       "status" : "passed",
       "time" : {
-        "start" : 1586243410771,
-        "stop" : 1586243448136,
-        "duration" : 37365
+        "start" : 1586248607514,
+        "stop" : 1586248651600,
+        "duration" : 44086
       }
     } ]
   },
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9fcdef36ae85605",
+      "uid" : "4915ab91cec196bd",
       "status" : "failed",
       "statusDetails" : "Failed: homepage.clickGo1 is not a function",
       "time" : {

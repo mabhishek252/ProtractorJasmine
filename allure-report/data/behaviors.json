@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "substraction test",
-    "uid" : "d9fcdef36ae85605",
+    "uid" : "4915ab91cec196bd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -16,13 +16,13 @@
     "parameters" : [ ]
   }, {
     "name" : "addition test",
-    "uid" : "8df0930c9d1ecae1",
+    "uid" : "7d8a22759b463639",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1586243410771,
-      "stop" : 1586243448136,
-      "duration" : 37365
+      "start" : 1586248607514,
+      "stop" : 1586248651600,
+      "duration" : 44086
     },
     "flaky" : false,
     "newFailed" : false,
