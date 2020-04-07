@@ -1,0 +1,241 @@
+{
+  "uid" : "d9fcdef36ae85605",
+  "name" : "substraction test",
+  "fullName" : "Demo Test case.substraction test",
+  "historyId" : "43b6ec46df60030319d83c0fd225c5a8",
+  "time" : {
+    "start" : 1586241999117,
+    "stop" : 1586241999421,
+    "duration" : 304
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: homepage.clickGo1 is not a function",
+  "statusTrace" : "TypeError: homepage.clickGo1 is not a function\n                    at UserContext.<anonymous> (D:\\IVL\\AutoDocs\\Protractor\\Projects\\ProtractorDemo\\tests\\calculator.js:51:18)\n                    at C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n                    at C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                From: Task: Run it(\"substraction test\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (D:\\IVL\\AutoDocs\\Protractor\\Projects\\ProtractorDemo\\tests\\calculator.js:34:5)\n                    at addSpecsToSuite (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (D:\\IVL\\AutoDocs\\Protractor\\Projects\\ProtractorDemo\\tests\\calculator.js:5:1)\n                    at Module._compile (internal/modules/cjs/loader.js:1147:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)\n                    at Module.load (internal/modules/cjs/loader.js:996:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:896:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "testMethod",
+    "value" : "substraction test"
+  }, {
+    "name" : "package",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d579bafad7438cfd",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586241916207,
+        "stop" : 1586241916808,
+        "duration" : 601
+      }
+    }, {
+      "uid" : "bf9833a58e3e1fe4",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586241841788,
+        "stop" : 1586241842409,
+        "duration" : 621
+      }
+    }, {
+      "uid" : "eeba1f57f7b5227e",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586240987770,
+        "stop" : 1586240988396,
+        "duration" : 626
+      }
+    }, {
+      "uid" : "bed1a970771e9a4c",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586240914610,
+        "stop" : 1586240917894,
+        "duration" : 3284
+      }
+    }, {
+      "uid" : "adecbe01b755e48",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586237421700,
+        "stop" : 1586237422447,
+        "duration" : 747
+      }
+    }, {
+      "uid" : "f3f93843000192b7",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586237347273,
+        "stop" : 1586237347896,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "95bec1a1b602fc6",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586167133841,
+        "stop" : 1586167134471,
+        "duration" : 630
+      }
+    }, {
+      "uid" : "1c5af3231626cef1",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586165821192,
+        "stop" : 1586165821775,
+        "duration" : 583
+      }
+    }, {
+      "uid" : "d63ad42cccdce3f1",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586165798151,
+        "stop" : 1586165798471,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "a6b4107f0976bee5",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586165765864,
+        "stop" : 1586165766219,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "896667a046d999fd",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586165459227,
+        "stop" : 1586165459861,
+        "duration" : 634
+      }
+    }, {
+      "uid" : "f93e98e287bce1b4",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586165355276,
+        "stop" : 1586165355893,
+        "duration" : 617
+      }
+    }, {
+      "uid" : "7691ea06dc7816d2",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586165242635,
+        "stop" : 1586165243260,
+        "duration" : 625
+      }
+    }, {
+      "uid" : "bc9352cf88cfe5ae",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586164034350,
+        "stop" : 1586164034702,
+        "duration" : 352
+      }
+    }, {
+      "uid" : "10ae1b4debef6c22",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586163408559,
+        "stop" : 1586163408866,
+        "duration" : 307
+      }
+    }, {
+      "uid" : "154d30c12efaa043",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586163358223,
+        "stop" : 1586163358550,
+        "duration" : 327
+      }
+    }, {
+      "uid" : "caa6d8f4f535c772",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586163143310,
+        "stop" : 1586163143659,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "f86c10a82561b0a8",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586162899887,
+        "stop" : 1586162900523,
+        "duration" : 636
+      }
+    }, {
+      "uid" : "a631d28db83a7878",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: fs is not defined",
+      "time" : {
+        "start" : 1586159914609,
+        "stop" : 1586159915375,
+        "duration" : 766
+      }
+    }, {
+      "uid" : "57f758454ddab132",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586118500131,
+        "stop" : 1586118500459,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "aab188307215ce6c",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1586112172149,
+        "stop" : 1586112172480,
+        "duration" : 331
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d9fcdef36ae85605.json",
+  "parameterValues" : [ ]
+}

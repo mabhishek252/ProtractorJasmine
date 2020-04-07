@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Demo Test case",
+    "children" : [ {
+      "name" : "substraction test",
+      "uid" : "d9fcdef36ae85605",
+      "parentUid" : "26b81a5d3f71da019838ef0b5e831306",
+      "status" : "failed",
+      "time" : {
+        "start" : 1586241999117,
+        "stop" : 1586241999421,
+        "duration" : 304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addition test",
+      "uid" : "8df0930c9d1ecae1",
+      "parentUid" : "26b81a5d3f71da019838ef0b5e831306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586243410771,
+        "stop" : 1586243448136,
+        "duration" : 37365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "26b81a5d3f71da019838ef0b5e831306"
+  } ]
+}

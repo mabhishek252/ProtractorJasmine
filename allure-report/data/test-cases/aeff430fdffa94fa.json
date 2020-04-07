@@ -1,0 +1,46 @@
+{
+  "uid" : "aeff430fdffa94fa",
+  "name" : "addition test",
+  "fullName" : "Demo Test case.addition test",
+  "historyId" : "abb57b76f7a45d7d645b45ee63f6c7b",
+  "time" : {
+    "start" : 1586241911129,
+    "stop" : 1586241916207,
+    "duration" : 5078
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '28' to equal 28.",
+  "statusTrace" : "Error: Failed expectation\n                    at homepage.verifyResult (D:\\IVL\\AutoDocs\\Protractor\\Projects\\ProtractorDemo\\pages\\homepage.js:26:34)\n                    at UserContext.<anonymous> (D:\\IVL\\AutoDocs\\Protractor\\Projects\\ProtractorDemo\\tests\\calculator.js:27:18)\n                    at C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\abhishek.mishra\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "testMethod",
+    "value" : "addition test"
+  }, {
+    "name" : "package",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aeff430fdffa94fa.json",
+  "parameterValues" : [ ]
+}

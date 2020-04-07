@@ -1,0 +1,44 @@
+{
+  "uid" : "d9433fee8c173d2e",
+  "name" : "addition test",
+  "fullName" : "Demo Test case.addition test",
+  "historyId" : "abb57b76f7a45d7d645b45ee63f6c7b",
+  "time" : {
+    "start" : 1586110807554,
+    "stop" : 1586110813342,
+    "duration" : 5788
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "testMethod",
+    "value" : "addition test"
+  }, {
+    "name" : "package",
+    "value" : "Demo Test case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9433fee8c173d2e.json",
+  "parameterValues" : [ ]
+}
