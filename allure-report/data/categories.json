@@ -7,13 +7,13 @@
       "name" : "Failed: homepage.clickGo1 is not a function",
       "children" : [ {
         "name" : "substraction test",
-        "uid" : "4915ab91cec196bd",
+        "uid" : "5caa537a3d9d540e",
         "parentUid" : "5d50b4ba65d18585166e5a9724da6248",
         "status" : "failed",
         "time" : {
-          "start" : 1586241999117,
-          "stop" : 1586241999421,
-          "duration" : 304
+          "start" : 1586855096228,
+          "stop" : 1586855096579,
+          "duration" : 351
         },
         "flaky" : false,
         "newFailed" : false,

@@ -4,27 +4,27 @@
   "children" : [ {
     "name" : "Demo Test case",
     "children" : [ {
-      "name" : "substraction test",
-      "uid" : "4915ab91cec196bd",
+      "name" : "addition test",
+      "uid" : "ddb86caa4722d16d",
       "parentUid" : "7166207f5845376e608f081c9f7340a7",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1586241999117,
-        "stop" : 1586241999421,
-        "duration" : 304
+        "start" : 1586855061620,
+        "stop" : 1586855096227,
+        "duration" : 34607
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "addition test",
-      "uid" : "7d8a22759b463639",
+      "name" : "substraction test",
+      "uid" : "5caa537a3d9d540e",
       "parentUid" : "7166207f5845376e608f081c9f7340a7",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1586248607514,
-        "stop" : 1586248651600,
-        "duration" : 44086
+        "start" : 1586855096228,
+        "stop" : 1586855096579,
+        "duration" : 351
       },
       "flaky" : false,
       "newFailed" : false,

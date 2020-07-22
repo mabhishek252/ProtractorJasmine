@@ -6,7 +6,7 @@ var configdataFile = function() {
         params:{
             firstNo: '20',
             secondNo: '3',
-            ExpectedResult: '28'
+            ExpectedResult: '23'
         },
     }
 };

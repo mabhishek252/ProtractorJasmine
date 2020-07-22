@@ -8,11 +8,11 @@ let homepage = function(){
         browser.get(url);
     }
 
-    this.enterfirstNumber = function(firstNum){
+    this.firstNumber = function(firstNum){
         firstNumber.sendKeys(firstNum);
     };
 
-    this.secondfirstNumber = function(secondNum){
+    this.secondNumber = function(secondNum){
         secondNumber.sendKeys(secondNum);
     };
 
@@ -20,10 +20,16 @@ let homepage = function(){
         goButton.click();
     };
 
-    this.verifyResult = function(result){
+    this.verifyPositiveTC = function(result){
         //let output = element(by.cssContainingText('.ng-binding', result));
         let output = element(by.className('ng-binding'));
         expect(output.getText()).toEqual(result);
+    };
+
+    this.verifyNegativeTC = function(result){
+        //let output = element(by.cssContainingText('.ng-binding', result));
+        let output = element(by.className('ng-binding'));
+        expect(output.getText()).not.toEqual(result);
     };
 
 };
